@@ -106,4 +106,4 @@ module.exports = (robot) ->
   #   res.reply 'zzzzz'
   robot.hear /(question|题目)/i, (msg) ->
     number = Math.floor(Math.random() * 600) + 1
-    msg.send "#{number}”
+    msg.send "#{number}"
