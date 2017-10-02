@@ -1,1 +1,1 @@
-web: bin/hubot -a slack -n leetcode-bot
+web: bin/hubot -a campfire
