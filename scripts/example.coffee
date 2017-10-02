@@ -104,3 +104,6 @@ module.exports = (robot) ->
   # robot.respond /sleep it off/i, (res) ->
   #   robot.brain.set 'totalSodas', 0
   #   res.reply 'zzzzz'
+  robot.hear /(question|题目)/i, (msg) ->
+    number = Math.floor(Math.random() * 600) + 1
+    msg.send "#{number}”
